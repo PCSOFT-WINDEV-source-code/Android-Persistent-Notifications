@@ -1,0 +1,69 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GlobalProcedures
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x166b24ba007d9bb6
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ManageNotifications
+     internal_properties : CAAAAAgAAABOYKW9miQPfxnMsOIFOLtfOiRJvuS7s9MX6HrZvcGkAI5F2/KsB+tBvd0D+ntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeJ5vtLzMcERy2wJ1uFS3L4QueKv7H7755KRosjOJZPBxAV5GHFDivaDyA7PZw==
+     procedure_id : 1615425272633269174
+     type_code : 15
+     code : |1+
+      
+      // Summary: Manages the notifications in a persistent thread
+      // 
+      PROCEDURE ManageNotifications()
+      
+      WHILE gbActive
+      	// Displays the notification
+      	DisplayNotification()
+      	
+      	// Wait during the periodicity
+      	ChronoStart(1) 
+      	WHILE gbActive _AND_ ((ChronoValue(1) / 1000) < gnPeriodicity)
+      		Multitask(50)
+      	END
+      	ChronoEnd(1)
+      END
+     type : 458752
+   -
+     name : DisplayNotification
+     procedure_id : 1615425272633334710
+     type_code : 15
+     code : |1-
+      // Summary: Displays a notification
+      // 
+      PROCEDURE DisplayNotification()
+      
+      sTime is string = TimeToString(TimeSys(),"HH:MM:SS")
+      
+      NotifDelete(gSporadicNotification)
+      gSporadicNotification..Message = StringBuild("It is %1",sTime)
+      gSporadicNotification..DropDownText = sTime
+      gSporadicNotification..Title = sTime
+      
+      NotifAdd(gSporadicNotification)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x10aa34f3000feeb7
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

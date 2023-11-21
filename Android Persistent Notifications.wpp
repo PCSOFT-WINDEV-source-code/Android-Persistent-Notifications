@@ -1,0 +1,160 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Android Persistent Notifications
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : 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
+    configuration_id : 8775980492071522790
+    type : 15
+    version : {}
+    language : 2
+ elements :
+  identifier : 0x40aa2fc80002bd99
+  elements :
+   -
+     name : COL_GlobalProcedures
+     identifier : 0x40aa34f6010ff970
+     internal_properties : CAAAAAgAAACFge0xDqsDHCv2IucspwdPSTasfM8Fi/2KtAV3t2m1U70ncPe+RlqBdK4okBDAuCiQkA==
+     physical_name : .\COL_GlobalProcedures.wdg
+     type : 7
+   -
+     name : WIN_Android_Persistent_Notifications
+     identifier : 0x40aa3014007de5e0
+     internal_properties : CAAAAAgAAAC3k5+DIB0VFiHAKGmmWo3JI1IakisJlYZW7S06wEDKfo6m8XY8wNB3frginmaaZlqiog==
+     physical_name : .\WIN_Android_Persistent_Notifications.wpw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\ressources\notif.mp3
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\hdpi\notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADf8aKN3uAKyo75+KcJFYNnQRYdZzWYACsgEzYHb01qTUYOvbN+xn+8dbZuAKQ=
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\ldpi\notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAAvIbKd7vC26hZxQM8BzbuPEVatd6WIJP/0vyojg5mmCYo6eS8Kmg/MRcZ+MJQ=
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\mdpi\notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAAZu2RT0O4BZmaz2kMVOQf1kegtMQUqVRAl7jnQEsx1WDsbonCdDX26d4iwxmI=
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\xhdpi\notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAAYyTR2H/F0fwflMBehejAAPZ4uEqH9Ps5KGLTnekwApFwA3QZDZaf5J80kMkts
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\hdpi\persistent_notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADf8aKN3uAKyo75+KcJFYNnQRYdZzWYACsgEzYHb01qTUYOvbN+xn+8dbZuAKQ=
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\ldpi\persistent_notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\mdpi\persistent_notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAAZu2RT0O4BZmaz2kMVOQf1kegtMQUqVRAl7jnQEsx1WDsbonCdDX26d4iwxmI=
+        configuration_id : 8775980492071522790
+   -
+     physical_name : .\ressources\xhdpi\persistent_notif.png
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 8775980492071522790
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAADT5BNY6OKgP/L3OqU9C8G8og25d4ix9vLKGqMqpgPQm/2FTQAzsj+Ye8vibMDwIgIveZw/IO05Iu2JWLqmjDOxaYyTCWqdSNG7
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADVMHEuMhmPG+QUKPazg1POIAkHza6h1ISSGvC7oq5usyaMuTD/PsMvfmfttJeRe3mm5ydcTPikVdWQQGjDcowdo/fBAjKHodranLh8cUraoLFeIuYktxl4vXOqqBPG47G4yqSisqNXAElb7Ai7S/exN7UgAaW78QfBT94paFTwgAo6HbUnWM5zfd4JRc2PlXEvpUkhe6MEdl1hLKfN
+     code : |1+
+      
+      // Global variables
+      gsNamePersistentThread 				is string = "PersistentNotifications"
+      gsPeriodicityPreference 			is string = "periodicity"
+      gsPreferenceNotificationsEnabled 	is string = "benabled"
+      gbActive 							is boolean = False
+      gnPeriodicity 						is int
+      
+      // Notification that is displayed when the persistent thread is enabled
+      gPersistentNotification is a Notification
+      gPersistentNotification..ActivateApplication = True
+      gPersistentNotification..Message = "Persistent notifications enabled"
+      gPersistentNotification..Title = "Persistent notifications"
+      gPersistentNotification..Icon = "notif_persistent.png"
+      
+      gSporadicNotification is a Notification
+      gSporadicNotification..ActivateApplication  = True
+      gSporadicNotification..Deletable = True
+      gSporadicNotification..Icon = "notif.png"
+      gSporadicNotification..Sound = "notif.mp3"
+      
+      IF InAndroidSimulatorMode() THEN
+      	EndProgram("This example does not operate in Android simulator mode.","This application must be run on an emulator or on an Android device.")
+      END
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x40aa2fc80003bdd7
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    name : UWA API1
+    explorer_type : custom_folder
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

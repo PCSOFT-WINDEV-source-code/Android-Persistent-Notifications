@@ -1,0 +1,249 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Android_Persistent_Notifications
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Android_Persistent_Notifications
+ identifier : 0x266b24b903399aac
+ internal_properties : CAAAAAgAAAAUO950QMJcNihX4KxZqgo/Y2DNLxcX8IABQalQYvKrcGGcap6veiWCvG53akpG+IKHSmAfhRSuy6EFxBUKEf4adi6jYQJeKVgkxmiYLQFnFUhdmdVs9Zj4eB/cKFSiGWDleCF4QvnYSQ7WEbHC99sk0FvZZioOa+PDKbPoSi29lbkuJWh16zUvmfY/+/Pe4MGKjXlNE9jVARQm8b3NghBHoWE8XJPNhgc65UNpenSJTA/5GCg2A+F0/Vwjd6wsyVWozr+nZhxAmWFn5emI/QaC/yo4nAqLqwtu7Jzj7+9brclP0Tedvgko6swChPdToYmYSTmPZ5wZmdAZkmSCyumGz+pTosKXZaUROiY3rMNUZ7k6/aivqM3fsPUKYzkvevilF2za8QTqaMb0mVp71dzFbbnPt99vyVmp50HbiKDCzuKHNn463aOlZfY+dTEY9UFHQe/Gkg577KN8IFO4s/kTUwsvMhH2Tp/yAjDSL+SC9TWBwRBzUQE+s/3nSnuz48NV1IiESjEa1Y2cXLFyCsimLnsn7oNAg+DahQ7n8zt2YCZiMJVRIYVGnXaTdpJDwCsLOnKMbUkfTQbP85mF5BZ6sVzaZ/zdk/ApZ5AWh40yHexYLQPqmSNNTdYtytNGtRmr0SedtvuWcGmK76PjjsWRwTHI899x2yj7bGYWh8p3CKZmvJcVAKoBAw1tXOJfzRYxTtUgnpwLUV8PvoSFBjCnCI2BBhs0sMCKb4GIutSxZw3xNZyfzi0c7SRpb3VBM2ZpUMigKgaQ1GFd+iyfwBlIlED89UuXMVlrRk70YVczQoW6B5wkgr60rTZqiwO1TdD/7AR1vYJy41wdFQ==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : STC_NoName1
+    identifier : 0x266b24b9033a9aac
+    internal_properties : CAAAAAgAAABiBiyVka+F/6agSY+WDpKfu0qeAMp8V1uMvpWHXoCvs8cCUlyt6L+ZbDmJT12I+ELvPcYt9PWQtbRGEHWgAXTgMwrwCdf/J7b0x61eFbhWky5FYi422GpCtd2cUVJ2a5YAdpYrdBDp1iGddmiXgBxM8CjpwF+Am5uW53iJwcHYpHfZl8vjvua7VtWhKNlPVsxCXZWqSO/PHC8W1r4hsDJhE+MEuKanTfvYD9hj061XlQ7tg9e9gEwjKw8x4t60ho6sCbg5Q2CS4unSqjtwB8rN0aRBqOkL9rzmwCe69BqKFmOQDtpYFjvvRs5HyaXqH5bJ66OXKQTe95LM+LtBmaqKynCOn60C70HOZ+SuNU48VY+fLTW1ljtIvrqp4HjErQoFIDYSF1Mq2oSGesd7w0F/WbuVkBKl0YedfFZBh0YbWjSo1uF6PViwgWmb3Vi/7F12FzprVvK4ra6aC/S6b8S13bNtYLLCanAgeUhX0MeRhptYvJK46sUt4fcSOlmnx40lDmmkTFMlGANGK+MR+Nmp8QoQ8HLJ28qubiR0JQqYr1O7biNSXP27vnbdc1oMEb6G/GO0vxgo0UBxVlz4iQe4EFR7i2V3adUcY6jWbaNYnQMgfv5HBafKDi7HdHBuChnlZ1hK1Dk0lZ/Xtzh+1YnSf5gFdvD6hkohiBY3IAguI0fMoVrHJLC6e6a8l0QcDTioT98=
+    properties :
+     x : 16
+     y : 16
+     width : 287
+     height : 160
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Validate
+    identifier : 0x266b24b9033b9aac
+    internal_properties : CAAAAAgAAACtFUPjrvBEkyVvCc6pankn9MBeFJiAsMn4RLKKDlOCUiZbOx3tgSYtbo8YEaNRP754bpDPchb4ShTV6Qz4mO3ad8+VJmuKEDndl0jz1IYRisLCGTifr7BxJDiQ7WkJ1nZ2bUogBH3I/PnWdauAxgUl9jKuRRCUrg3Smyvhl22d/P+4lL7ejDF6mseuW6KoEyB8wEK3NI1wrLyvtLHI6oE0eMjskhpkjgGh5MyDwgbN3W2plC/+2uIbirgAGmKFDj85fzsvD7FGr9J8qPXsAUpo93MzgKt/EgbN28umfnDfQ9zMvU524wSQ1Hhr6LgfzwRJFRETjDNmSHcpsZf9dl8JwsRJ0W7ahslRg3NFU7/j02RsED5drZ6x2l04MJrQhJN9RWcQtjkt157CRWSXfMgUJsAnEqzbP6IbzZAVimgKgtqWVvq0C9pxXzbXGvnY0Mo/XpuGA93tedGSpXKBpDpSHTmuzlz+THD3ewVYaDZnKHg5coUNK8/iDkj4nlLP/AWZCA0yk/8PyGl64dFeLi0lR46JybIrmZvqVPaQj1BnErs64RjjrQSrILRST2SxclJO6e3gQ3fcMAonx0zP46V2kLGD5P/jKix6Bv9aTmWAQ5eouq2lwJTIZp1NtzU4MCWH7CJ8yQ9R6wMRvQbzyF7GwHdDYosug3a88wPR5dRKuDf2KZC81PLCORZ/PvgZ5sUWtv2q142EUCOpVRS/7Qekw5mOiufD3pE+YuGSCgWfE2XIkAL6IjZXOxDxUnNQHVLrNN5bAuQmu9KzuLJGFK3jW8HlahrZjPjf4o4Lfil14W0WzGxicdd/aGb3eAf7niqg2WGdFfiEWO/xmeB9Lj6R3dhIbJ243p1CLoBD90WhCuN9HxsirId/MNItc35eByV66+3spBH8cZk4csLXps0NNZys
+    properties :
+     x : 37
+     y : 289
+     width : 246
+     height : 60
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         IF NOT gbActive THEN
+         	ActivateApplications(True)
+         ELSE
+         	ActivateApplications(False)	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Periodocity
+    identifier : 0x266b24b9033c9aac
+    internal_properties : CAAAAAgAAAA4zQQVPLYgqRWkGJDqhOS70+tkAjs7Bfa0rlKbcLHeIigo/yknWay04NzzoaRWZlyOVIqFtljDibaas3YW1//PMo/eFYywUBYKSI38DVJCbjYL9P6r8NjqC8UUrkJBeUtqUOu87YXL4Vq1tV9un3PSCt9vod4V6x/EnZKsvXnv/aODV7Z9xc9JT2c04tcf3U16c/WtspbUlh2P9/0oyaLHvQ+eT9EoJAA0UgNiMAB3i4pgDCReYbFnfyZU+l0LnfnlzuECkYp1/lhvN4S6BZ2TZPWKqit5XcGetIteo30VJJQ6aQN3jFL15WUFptE0IdbKc8dw7ZfKBgFCGsKPphneGNGrmvbtbz7C9pKWCBsCRshNZRn9atoTPuV+V7OnoXpr5ciHCQhL9jJtFqGxNJsWWRXi3iH2E+jfuzrQZlVVXb/cJ5/if5kVrKN0an1abFz7FSPDBEvm6GBRoNmaUgAxl8wEct7ljqFCd4blj/atOu12noSVd7WbHBeUj0tvaXTU/gN3ySU6jLgPMs5OTZ6MYoeeLBYfZVmyE6aXoFxHxi/Nt1Ycs0AaqpNXXsC7LetoOqB0g2sZNg+/Pe3o3O3n1UwIRmszLL78z4rmDJSol8sqMiXw8ok0PzUqQYGRDgfYbUOjEy3WP2CRGgUUVnrNwHPHE4vKP1Eq/5JH6DAF/vsbRdE0F0TGf2/MpY83aLQWQs79GeOwyxHJU2+sYlcI+dQWdFNA9a3YDGAMYUk0ij7BG/55y8tFbO6Wz0et5SyqScOx+qSSBWA8/0qvvdGlBeSW0PprMkAs0CTepgKBwznRbQnV+GiqJFGVj63L18yeclMDsTZvtrJJNK8DiGA79U9sYopb4ssoJsAfZne+t8BotKAlXM8/8P0f581V55tuFoOfK1vOEY1srrO3J3UyvMUQfXI/+BB9yV/TRdiQEBsYp0WNDTluAea2oIbWYGQuADfG/KyKX13a1wXz60vtzUNm+ZnPpQO2d/d7UlYD1o0f5jGf+9KjCbAojiu6t2laNcLMCwYoZ4Lp+Jxg3T2CLwgEZ1TZVYzxsuwhZ7lqLPaHca15j2J7xI2vLRfQ7WBlWP3VBUvzC05F41wIYa5VgbF4LhHO8lmGAmZ5P3yk6WGTb3OlJw4T+EdCBWIOw1Uyhq8zkMZ4HF2HneV9n0+6C9iJSIiM4q498vycg7dk3+ltRdZEaDMu0Xw4E2sIX817ngHM8hNi6rL/7pIk3zhtA2UFi38=
+    properties :
+     x : 16
+     y : 189
+     width : 288
+     height : 83
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         
+         MySelf = LoadParameter(gsPeriodicityPreference,60)
+         gnPeriodicity = MySelf
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         SaveParameter(gsPeriodicityPreference,MySelf)
+         gnPeriodicity = MySelf
+        type : 17
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x266b24b9033d9aac
+  internal_properties : CAAAAAgAAACfO1dgKd7lBBxvc3Cf/hO8Bxee0eZe1RsuOrM1un19+cc3HrO7ECKIuimTvI1h1ZPkNW5cm/+xEhUw+pAEqNnDjKOGosj9400fKH00E9/ZhpHtBC6L7P27p45MMr+Y96aBV/MdRyujugI/TYu33W7rpgWuh8fMTpuEByxwOjWW5JgLB1vQFNE/Nl13OC2mezriR+RnR8mcpupcR/I7UPhKzm2xpdgCL1/lOg4Bv6LAlZay2O/BtzraapEgwC6icHhnGZuRQPVhyBvrCnHTB7tOMA30k8xYBHHYASvSbI2I3nnGkCH/jWgd8H9YaHkR9XsAf6+xhNA7C/xUdzSg1dLoKjr3bTMvnnFDuubgTuvjjz1cEtycQitG4oBLxD3C5n67kReKJkpq2/r6hMloDEzZ7+lGQ1qa2zgUbklW
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACHiDlblhrgiOrRB9eeUsK1w7WsyydTEkgd59wbHFvJC7XWx7V6RCuPnTHGPfDVVwIsKNyHxEbh1Xlo4lcyAq3Mscx+qCc+MsamGjJAyXaSlZvEnJWvvEUoDU7G
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      // Starts the notifications if necessary
+      gbActive = LoadParameter(gsPreferenceNotificationsEnabled,False)
+      IF gbActive THEN
+      	ActivateApplications(True)
+      END
+      
+      // Check whether the notifications are enabled
+      RefreshStatus()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+   -
+     type : 66052
+  procedures :
+   -
+     name : RefreshStatus
+     procedure_id : 1615425268337908396
+     type_code : 14
+     code : |1-
+      
+      // Summary: Checks whether the notifications are enabled
+      //
+      PROCEDURE RefreshStatus()
+      
+      IF LoadParameter(gsPreferenceNotificationsEnabled,False) THEN
+      	gbActive = True
+      	BTN_Validate = "Disable the notifications"
+      	EDT_Periodocity..Visible = False
+      ELSE
+      	gbActive = False
+      	BTN_Validate = "Enable the notifications"
+      	EDT_Periodocity..Visible = True
+      END
+     type : 458752
+   -
+     name : ActivateApplications
+     procedure_id : 1615425268337973932
+     type_code : 14
+     code : |1-
+      // Summary: Enable the notifications
+      // Syntax:
+      //ActivateApplications (<bActivate> is boolean)
+      //
+      // Parameters:
+      //	bActivate (boolean): <specify the role of ManageNotifications>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE ActivateApplications(bActivate is boolean)
+      
+      IF bActivate THEN
+      	// Enable the notifications
+      	gbActive = True
+      	
+      	SaveParameter(gsPreferenceNotificationsEnabled,True)
+      	
+      	IF ThreadState(gsNamePersistentThread) = threadUnknown THEN
+      		ThreadExecute(gsNamePersistentThread,threadGlobalContext,ManageNotifications)
+      		ThreadPersistent(gsNamePersistentThread,gPersistentNotification)
+      	ELSE
+      		// The notifications are already enabled
+      	END
+      ELSE
+      	// Disable the notifications
+      	gbActive = False
+      	SaveParameter(gsPreferenceNotificationsEnabled,False)
+      	NotifDelete(gSporadicNotification)
+      END
+      
+      // Refreshes the status
+      RefreshStatus()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x10aa2ffc000b871e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
